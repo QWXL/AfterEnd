@@ -1,2 +1,2 @@
 # AfterEnd
-该仓库用于提供给AfterEnd在线更新服务
+该仓库用于提供给IWCP Studios旗下Minecraft第三方多人游戏提供商AfterEnd服务器的客户端在线更新下载服务。
