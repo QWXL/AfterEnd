@@ -3,7 +3,7 @@
      如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
 
 <local:MyCard Title="详情">
-	<StackPanle Margin="25,40,23,15">
+	<StackPanel Margin="25,40,23,15">
 		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
                    Text="当前服务端版本：V1.0X" />
 		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
@@ -12,7 +12,7 @@
                    Text="若显示内容与实际不符，请点击下方按钮重新从远程服务器获取主页信息。" />
         <local:MyButton Margin="0,8,0,8" Width="500" Height="35"
                    Text="刷新主页" EventType="刷新主页" EventData="" />
-	</StackPanle>
+	</StackPanel>
 </local:MyCard>
 		
 		
