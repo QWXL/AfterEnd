@@ -2,8 +2,17 @@
 <!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 主页：添加文本、打开网页、启动游戏，等等。
      如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
      如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
-    
 
+<local:MyCard Title="详情">
+	<StackPanle Margin="25,40,23,15">
+		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
+                   Text="当前服务端版本：V1.0X" />
+		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
+                   Text="最新客户端版本：V1.0Fix3" />
+	</StackPanle>
+</local:MyCard>
+		
+		
 <local:MyCard Title="检查更新">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,8,0,8" IsWarn="true"
