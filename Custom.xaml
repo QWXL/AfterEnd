@@ -7,7 +7,7 @@
 		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
                    Text="当前服务端版本：V1.0X" />
 		  <TextBlock TextWrapping="Wrap" Margin="0,2,0,2"
-                   Text="最新客户端版本：V1.0Fix4" />
+                   Text="最新客户端版本：V1.0Fix5" />
 		<TextBlock TextWrapping="Wrap" Margin="0,10,0,2"
                    Text="若显示内容与实际不符，请点击下方按钮重新从远程服务器获取主页信息。" />
         <local:MyButton Margin="0,8,0,8" Width="500" Height="35"
